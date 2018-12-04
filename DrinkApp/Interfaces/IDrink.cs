@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DrinkApp
+namespace DrinkApp.Interfaces
 {
-    public class DrinkOrderMethods
+    public interface IDrink
     {
     }
 }

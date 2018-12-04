@@ -12,5 +12,10 @@ namespace DrinkApp
         public string Size { get; set; }
         public decimal Cost { get; set; }
         public string DrinkSummary { get; set; }
+
+        public virtual void PrintDrinkSummary()
+        {
+
+        }
     }
 }

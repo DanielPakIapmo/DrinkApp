@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassLibrary\ArrayOption.cs" />
     <Compile Include="ClassLibrary\Drink.cs" />
     <Compile Include="ClassLibrary\Coffee.cs" />
     <Compile Include="ClassLibrary\Juice.cs" />
@@ -52,7 +53,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DrinkAppResource.resx</DependentUpon>
     </Compile>
-    <Compile Include="DrinkOrderMethods.cs" />
+    <Compile Include="Extensions\DrinkExtensions.cs" />
+    <Compile Include="Interfaces\IDrink.cs" />
+    <Compile Include="Methods\DrinkOrderMethods.cs" />
+    <Compile Include="Methods\PrintScreenMethods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
